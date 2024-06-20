@@ -4,4 +4,7 @@ export default defineNuxtConfig({
         '@bloggrify/core',
         '@bloggrify/mistral',
     ],
+    app: {
+        baseURL: '/gmaisse.dev/'
+    }
 })

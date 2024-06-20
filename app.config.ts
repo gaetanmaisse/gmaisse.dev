@@ -1,7 +1,7 @@
 export default defineAppConfig({
     logo: '/images/logo.svg',
 
-    url: 'https://mistral.bloggrify.com/',
+    url: 'https://gaetanmaisse.github.io/gmaisse.dev/',
 
     theme: 'mistral',
 

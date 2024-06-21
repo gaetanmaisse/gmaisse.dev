@@ -6,7 +6,7 @@ export default defineAppConfig({
     theme: 'mistral',
 
     // The name of the blog itself
-    name: 'gmaisse.dev',
+    name: 'npm run gmaisse.dev',
     // avatar: '/images/avatar.jpg',
     // The description of the blog if any
     description:  'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
@@ -28,7 +28,7 @@ export default defineAppConfig({
 
         // possible values : 'facebook', 'twitter', 'linkedin', 'email', 'pinterest', 'reddit', 'pocket', 'whatsapp', 'telegram', 'skype'
         // see https://github.com/stefanobartoletti/nuxt-social-share
-        sharing_networks: ['facebook', 'twitter', 'linkedin', 'email', 'pinterest', 'reddit', 'pocket', 'whatsapp', 'telegram', 'skype']
+        // sharing_networks: ['facebook', 'twitter', 'linkedin', 'email', 'pinterest', 'reddit', 'pocket', 'whatsapp', 'telegram', 'skype']
     },
 
     newsletter: {
@@ -53,9 +53,9 @@ export default defineAppConfig({
         {
             username: 'gmaisse',
             default: true,
-            name: 'Gaetan Maisse',
+            name: 'Gaëtan Maisse',
             description:
-                '',
+                `My name is Gaëtan Maisse, a.k.a. \`gmaisse\`, welcome to my blog. I am a software engineer, I love to share my knowledge and experience with others.`,
             avatar: '/images/portrait.jpg',
             socials: {
                 twitter: 'https://twitter.com/gaetanmaisse',

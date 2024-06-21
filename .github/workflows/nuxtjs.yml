@@ -31,7 +31,7 @@ jobs:
           node-version: "20"
           cache: "npm"
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Static HTML export with Nuxt
         run: npm run generate
       - name: Upload artifact

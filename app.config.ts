@@ -1,12 +1,12 @@
 export default defineAppConfig({
-    logo: '/images/logo.svg',
+    logo: '/images/logo.png',
 
     url: 'https://gaetanmaisse.github.io/gmaisse.dev/',
 
     theme: 'mistral',
 
     // The name of the blog itself
-    name: 'npm run gmaisse.dev',
+    name: 'gmaisse.dev',
     // avatar: '/images/avatar.jpg',
     // The description of the blog if any
     description:  'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
@@ -54,13 +54,12 @@ export default defineAppConfig({
             username: 'gmaisse',
             default: true,
             name: 'Gaëtan Maisse',
-            description:
-                `My name is Gaëtan Maisse, a.k.a. \`gmaisse\`, welcome to my blog. I am a software engineer, I love to share my knowledge and experience with others.`,
+            description: 'a.k.a. `gmaisse`. 👨‍💻 Software Engineer @Prolong.io. 👨‍🏫 Teacher @MinesStEtienne. 📚 ex Core Member @storybookjs - ex Gravitee. 💗 First love @android',
             avatar: '/images/portrait.jpg',
             socials: {
                 twitter: 'https://twitter.com/gaetanmaisse',
                 twitter_username: 'gaetanmaisse',
-                linkedin: 'https://www.linkedin.com/in/gaetanmaisse/',
+                linkedin: 'https://www.linkedin.com/in/gmaisse',
                 github: 'https://github.com/gaetanmaisse',
             },
         },

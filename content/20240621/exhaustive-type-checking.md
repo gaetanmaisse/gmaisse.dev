@@ -7,7 +7,7 @@ categories:
 tags:
   - TypeScript
   - Zod
-cover: "man-filming.jpg"
+cover: "covers/exhaustive-type-checking.jpg"
 ---
 
 As a TypeScript developer, ensuring that your code is robust and error-free is paramount. One of the most powerful tools

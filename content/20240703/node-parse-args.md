@@ -12,6 +12,14 @@ cover: "covers/node-parse-args.jpg"
 
 The ability to parse command-line arguments is essential for many Node.js applications. Whether you're building a CLI tool, a server application, or a script, handling command-line arguments efficiently can greatly enhance your application's usability and functionality.
 
+So let's imagine you're building a Node.js CLI tool that takes user input from the command line. You want to be able to pass arguments like `--name John` or `--age 30` to your script and have it process those arguments accordingly.
+Bassically, you want to run your script like this:
+
+```bash
+node my-script.js --name John --age 30
+```
+
+
 ## 📜 Once Upon a Time: Manual Argument Parsing
 
 
@@ -111,21 +119,21 @@ With these libraries, argument parsing becomes more declarative and less error-p
 
 ## 📚 The New Era: Built-in `parseArgs` Function
 
-With the introduction of the built-in parseArgs function in Node.js, developers can now parse command-line arguments without relying on external libraries. This function provides a simple and intuitive way to define and parse command-line arguments, making it easier to build CLI tools and applications.
+With the introduction of the built-in [parseArgs](https://nodejs.org/api/util.html#utilparseargsconfig) function in Node.js, developers can now parse command-line arguments without relying on external libraries. This function provides a simple and intuitive way to define and parse command-line arguments, making it easier to build CLI tools and applications.
 
 The parseArgs function is part of the Node.js util module and offers a straightforward API for parsing command-line arguments. Here's how you can use it:
     
 ```js
-const { parseArgs } = require('util');
+import { parseArgs } from 'node:util'; // Importing as ES module because we're living in a modern world
 
 const options = {
   name: { type: 'string' },
   age: { type: 'number' }
 };
 
-const args = parseArgs(process.argv.slice(2), options);
+const { values } = parseArgs({ options });
 
-console.log(`Hello, ${args.name}. You are ${args.age} years old.`);
+console.log(`Hello, ${values.name}. You are ${values.age} years old.`);
 ```
 
 In this example:

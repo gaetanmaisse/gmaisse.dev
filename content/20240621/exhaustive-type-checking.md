@@ -1,7 +1,7 @@
 ---
 title: "Exhaustive Type Checking with Zod"
 description: "Embrace Exhaustive Type Checking with Zod's Discriminated Unions"
-date: "2024-02-20"
+date: "2024-06-21"
 categories:
   - blog
 tags:
